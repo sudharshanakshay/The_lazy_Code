@@ -1,3 +1,5 @@
+// remembers the last state.
+
 #include <IRremote.h>
 #include <EEPROM.h>
 
@@ -32,11 +34,15 @@ void loop() {
     Serial.println(result.value, HEX);
     switch(result.value)
     {
-      case 0x207BEF0F:
+      case 0x207BEF0F:            // No:1 in sony tv remote
       {
       if(EEPROM.read(0))          // if previously relay is OFF state it enters to 'if' condition. 
       {
+
+        //  'LOW' represents 'ON' state of relay, can be varied according to the need.
           digitalWrite(channel1,LOW);
+
+          // EEPROM.write(0,0) --> set the byte value '0' in "zero th" address in the memory.
           EEPROM.write(0,0);
           Serial.println("channel1 ON");
           Serial.println(EEPROM.read(0));  
@@ -51,7 +57,7 @@ void loop() {
       }
       break;
 
-      case 0xE8455D8E:
+      case 0xE8455D8E:            // No:2 in sony tv remote
       {
       if(EEPROM.read(1))
       {
@@ -70,7 +76,7 @@ void loop() {
       }
       break;
 
-      case 0xCBB7E949:
+      case 0xCBB7E949:        //No:3 in sony tv remote
       {
        if(EEPROM.read(2))
       {
@@ -89,7 +95,7 @@ void loop() {
       }
       break;
 
-      case 0x2C1F3172:
+      case 0x2C1F3172:     //No:4 in sony tv remote
       {
         if(EEPROM.read(3))
       {
