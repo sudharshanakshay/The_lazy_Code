@@ -1,4 +1,10 @@
-// remembers the last state.
+/*
+   Author : Sudharshan Acharya
+   Tittle : The_lazy_code
+    Date  : 2020-08-03
+
+  "remembers the last state of all Switchs"
+*/
 
 #include <IRremote.h>
 #include <EEPROM.h>
@@ -34,9 +40,9 @@ void loop() {
     Serial.println(result.value, HEX);
     switch(result.value)
     {
-      case 0x207BEF0F:            // No:1 in sony tv remote
+      case 0x207BEF0F:                      // No:1 in sony tv remote
       {
-      if(EEPROM.read(0))          // if previously relay is OFF state it enters to 'if' condition. 
+      if(EEPROM.read(0))                    // if previously relay is OFF state it enters to 'if' condition. 
       {
 
         //  'LOW' represents 'ON' state of relay, can be varied according to the need.
@@ -47,7 +53,7 @@ void loop() {
           Serial.println("channel1 ON");
           Serial.println(EEPROM.read(0));  
       }
-      else                        // if previously relay is ON state then it enters to else condition
+      else                                    // if previously relay is ON state then it enters to else condition
       {
            digitalWrite(channel1, HIGH);
            EEPROM.write(0,1);
@@ -57,7 +63,7 @@ void loop() {
       }
       break;
 
-      case 0xE8455D8E:            // No:2 in sony tv remote
+      case 0xE8455D8E:                          // No:2 in sony tv remote
       {
       if(EEPROM.read(1))
       {
@@ -76,7 +82,7 @@ void loop() {
       }
       break;
 
-      case 0xCBB7E949:        //No:3 in sony tv remote
+      case 0xCBB7E949:                          //No:3 in sony tv remote
       {
        if(EEPROM.read(2))
       {
@@ -95,7 +101,7 @@ void loop() {
       }
       break;
 
-      case 0x2C1F3172:     //No:4 in sony tv remote
+      case 0x2C1F3172:                          //No:4 in sony tv remote
       {
         if(EEPROM.read(3))
       {
