@@ -27,9 +27,12 @@ Here is the video [`link `](https://youtu.be/yADLIZVvrqg)for the complete projec
 
 ## Some Screenshots
 
-![](./docs/assets/20200724_214342.jpg)
-![](./docs/assets/20200724_214530.jpg)
-![](./docs/assets/20200724_214534.jpg)
-![](./docs/assets/20200724_214539.jpg)
+| | |
+|:---:|:---:|
+|![](./docs/assets/20200724_214342.jpg)|![](./docs/assets/20200724_214534.jpg)|
+
+| | |
+|:---:|:---:|
+|![](./docs/assets/20200724_214530.jpg)|![](./docs/assets/20200724_214539.jpg)|
 
 
