@@ -1,5 +1,3 @@
-# The_lazy_Code
-The source code for Simple-Home-controller using Arduino.
 
 # Smart Home Project
 A little classical though, & also made use of whatever i had !<br/>
@@ -23,7 +21,7 @@ Anyways the problem was 'The Morning', you know, need fan during night for sound
 
 ## Next ?
 
-Here is the video [`link `](https://youtu.be/yADLIZVvrqg)for the complete project. Everything you need.<br />
+Here is the video [**`link `**](https://youtu.be/yADLIZVvrqg)for the complete project. Everything you need.<br />
 
 ## Some Screenshots
 
