@@ -1,7 +1,7 @@
 
 # Smart Home Project
 A little classical though, & also made use of whatever i had !<br/>
-`Smart `, Its not exactly the Home is connected to the internet but, uses TV remote which has IR sensor to control the Relay (more like electric switches). <br/>
+`Smart `, Its not exactly that the Home is connected to the internet but, uses TV remote which has IR sensor to control the Relay (more like electric switches). <br/>
 
 
 ## A little Back Story
