@@ -23,6 +23,8 @@ Anyways the problem was 'The Morning', you know, need fan during night for sound
 
 Here is the video [**`-> link <-`**](https://youtu.be/yADLIZVvrqg) for the complete project. Everything you need.<br />
 
+The lazy code itself [**`-> link <-`**](https://github.com/sudharshanakshay/The_lazy_Code).<br />
+
 ## Some Screenshots
 
 | | |
